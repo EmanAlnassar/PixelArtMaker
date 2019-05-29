@@ -1,16 +1,30 @@
-# Pixel Art Maker Project
+# Pixel Art Maker
 
-## Table of Contents
+A classic web app to make pixel arts. Users have to select the scale of the hight and width to make their canvas. Then they have to pick a color to paint the desired cells to create an artwork. It is a project at [**Udacity's Intro to Programming Nanodegree**](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000) to test and practice problem-solving knowledge of [_JavaScript_](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [_DOM_](https://developer.mozilla.org/en-US/docs/Glossary/DOM).
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Folder Content:
 
-## Instructions
+- designs.js
 
-To get started, open `designs.js` and start building out the app's functionality.
+- index.html
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- styles.css
 
-## Contributing
+  
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Getting Started 
+
+1. Open **index.html** file in your browser _(preferably google Chrome)_.
+
+2. Choose a hight and width, then click **Submit**.
+
+3. Pick a color and start creating on your canvas. 
+
+    
+
+## Reference:
+
+**Code reference:**
+
+- https://developer.mozilla.org/
+- https://www.w3schools.com/
