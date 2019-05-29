@@ -8,6 +8,7 @@ function makeGrid() {
      // Getting the values of hight and width from user inputs
     const hight = document.getElementById('inputHeight').value;
     const width = document.getElementById('inputWidth').value;
+    table.innerHTML = '';
     // Creating the grid which is composed of rows filled with cells
     for (let i = 0; i < hight; i++) {
         const row = table.insertRow(i);
