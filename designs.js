@@ -15,3 +15,9 @@ function makeGrid() {
     }
 };
 
+
+const form = document.getElementById('sizePicker');
+form.addEventListener('submit', function (evt) {
+    evt.preventDefault();
+    makeGrid();
+});
