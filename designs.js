@@ -21,3 +21,12 @@ form.addEventListener('submit', function (evt) {
     evt.preventDefault();
     makeGrid();
 });
+
+
+const table = document.getElementById('pixelCanvas');
+table.addEventListener('click', function (evt) {
+    if (evt.target.nodeName.toLowerCase() === 'td') {
+        const color = document.getElementById('colorPicker').value;
+        evt.target.style.backgroundColor = color;
+    }
+});
